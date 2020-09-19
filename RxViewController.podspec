@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                          :tag => s.version.to_s }
   s.source_files = "Sources/**/*.swift"
   s.frameworks   = "Foundation"
-  s.dependency "RxSwift", "~> 5.0"
+  s.dependency "RxSwift", "~> 6.0.0-beta.1"
   s.dependency "RxCocoa", "~> 5.0"
 
   s.swift_version = "5.0"
